@@ -5,7 +5,7 @@ class Shape {
     }
 
     getCircleArea(r) {
-      return 3.142 * (r * r)
+      return Number((2 * Math.PI * r).toFixed(2));
     }
     
 }
